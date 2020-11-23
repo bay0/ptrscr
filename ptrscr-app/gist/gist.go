@@ -20,7 +20,7 @@ func Create(client *github.Client, bytes []byte, filename string) (*github.Gist,
 		Size:    github.Int(len(bytes)),
 	}
 	gist := &github.Gist{
-		Description: github.String("Enemy Eater Snap!"),
+		Description: github.String("https://github.com/bay0/ptrscr/"),
 		Public:      github.Bool(false),
 		Files:       f,
 	}
