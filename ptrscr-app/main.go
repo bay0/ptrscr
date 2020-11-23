@@ -169,7 +169,7 @@ func onReady() {
 
 			res, err := gist.Create(client, pngBytes, utils.BuildFileName())
 			if err == nil {
-				finalURL := "https://bay0.github.io/ptrscr?id=" + res.GetID()
+				finalURL := "https://ptrscr.dev/?id=" + res.GetID()
 
 				log.Printf("Uploaded: %s", finalURL)
 
