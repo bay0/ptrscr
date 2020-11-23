@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "./static/css/main.49c35930.chunk.css",
-    "main.js": "./static/js/main.5b6137aa.chunk.js",
-    "main.js.map": "./static/js/main.5b6137aa.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.b008eb3f.js",
-    "runtime-main.js.map": "./static/js/runtime-main.b008eb3f.js.map",
-    "static/js/2.ef6c74d5.chunk.js": "./static/js/2.ef6c74d5.chunk.js",
-    "static/js/2.ef6c74d5.chunk.js.map": "./static/js/2.ef6c74d5.chunk.js.map",
-    "index.html": "./index.html",
-    "static/css/main.49c35930.chunk.css.map": "./static/css/main.49c35930.chunk.css.map",
-    "static/js/2.ef6c74d5.chunk.js.LICENSE.txt": "./static/js/2.ef6c74d5.chunk.js.LICENSE.txt"
+    "main.css": "/ptrscr.dev/static/css/main.49c35930.chunk.css",
+    "main.js": "/ptrscr.dev/static/js/main.5b6137aa.chunk.js",
+    "main.js.map": "/ptrscr.dev/static/js/main.5b6137aa.chunk.js.map",
+    "runtime-main.js": "/ptrscr.dev/static/js/runtime-main.5d6b6200.js",
+    "runtime-main.js.map": "/ptrscr.dev/static/js/runtime-main.5d6b6200.js.map",
+    "static/js/2.ef6c74d5.chunk.js": "/ptrscr.dev/static/js/2.ef6c74d5.chunk.js",
+    "static/js/2.ef6c74d5.chunk.js.map": "/ptrscr.dev/static/js/2.ef6c74d5.chunk.js.map",
+    "index.html": "/ptrscr.dev/index.html",
+    "static/css/main.49c35930.chunk.css.map": "/ptrscr.dev/static/css/main.49c35930.chunk.css.map",
+    "static/js/2.ef6c74d5.chunk.js.LICENSE.txt": "/ptrscr.dev/static/js/2.ef6c74d5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.b008eb3f.js",
+    "static/js/runtime-main.5d6b6200.js",
     "static/js/2.ef6c74d5.chunk.js",
     "static/css/main.49c35930.chunk.css",
     "static/js/main.5b6137aa.chunk.js"
