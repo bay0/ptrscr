@@ -71,7 +71,7 @@ func onReady() {
 	tc := oauth2.NewClient(ctx, ts)
 	client := github.NewClient(tc)
 
-	imgBytes, err := utils.GetImageBytesFromURL("https://i.imgur.com/x3nPJYZ.png")
+	imgBytes, err := utils.GetImageBytesFromURL("https://raw.githubusercontent.com/bay0/ptrscr/master/ptrscr-app/icon/icon.png")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -99,8 +99,8 @@ func onReady() {
 
 	go func() {
 		systray.SetTemplateIcon(icon.Data, icon.Data)
-		systray.SetTitle("Enemy Eater Snapshot App")
-		systray.SetTooltip("Enemy Eater Snapshot App")
+		systray.SetTitle("PTRSCR")
+		systray.SetTooltip("PTRSCR")
 
 		listenerEnabled := systray.AddMenuItemCheckbox("Enabled", "Check Me", true)
 
@@ -169,13 +169,13 @@ func onReady() {
 
 			res, err := gist.Create(client, pngBytes, utils.BuildFileName())
 			if err == nil {
-				finalURL := "https://bay0.github.io/ee-snap?id=" + res.GetID()
+				finalURL := "https://bay0.github.io/ptrscr?id=" + res.GetID()
 
 				log.Printf("Uploaded: %s", finalURL)
 
 				clipboard.WriteAll(finalURL)
 				notification := toast.Notification{
-					AppID:   "enemyeater-app-snap",
+					AppID:   "ptrscr-app-snap",
 					Title:   "Upload successful",
 					Message: "Open in browser",
 					Actions: []toast.Action{
