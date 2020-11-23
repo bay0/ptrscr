@@ -44,3 +44,5 @@ Copyright © 2020 [bay](https://github.com/bay0).<br />
 This project is [MIT](https://github.com/bay0/ptrscr/blob/master/LICENSE) licensed.
 
 ***
+
+<div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
