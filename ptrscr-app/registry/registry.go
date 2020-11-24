@@ -20,6 +20,7 @@ func GetStringFromLocalMachine(path string, key string) string {
 	return s
 }
 
+// CreateRegistryKey adds a key to the given path under the CURRENT_USER, key:value
 func CreateRegistryKey(appPath string, tokenName string, tokenValue string) {
 
 	softwareK, err := registry.OpenKey(registry.CURRENT_USER, "Software", registry.QUERY_VALUE)

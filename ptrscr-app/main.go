@@ -25,7 +25,7 @@ import (
 	"gopkg.in/toast.v1"
 )
 
-type Image struct {
+type scImage struct {
 	Bounds image.Rectangle
 	Data   *image.RGBA
 }
@@ -125,7 +125,7 @@ func onReady() {
 		if isAppEnabled {
 			n := screenshot.NumActiveDisplays()
 
-			var images []Image
+			var images []scImage
 
 			for i := 0; i < n; i++ {
 				bounds := screenshot.GetDisplayBounds(i)
@@ -135,7 +135,7 @@ func onReady() {
 					panic(err)
 				}
 
-				images = append(images, Image{
+				images = append(images, scImage{
 					Bounds: bounds,
 					Data:   img,
 				})
