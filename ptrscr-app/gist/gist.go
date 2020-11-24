@@ -17,7 +17,7 @@ func Create(client *github.Client, bytes []byte, filename string) (*github.Gist,
 
 	f[github.GistFilename(filename)] = github.GistFile{
 		Content: github.String(base64Img),
-		Size:    github.Int(len(bytes)),
+		Size:    github.Int(len(base64Img)),
 	}
 	gist := &github.Gist{
 		Description: github.String("https://github.com/bay0/ptrscr/"),

@@ -160,6 +160,8 @@ func onReady() {
 				dst = imaging.Overlay(dst, watermark, image.Pt(img.Bounds.Min.X+watermarkPadding, img.Bounds.Min.Y+watermarkPadding), 0.8)
 			}
 
+			dst = imaging.Resize(dst, maxWidth, 0, imaging.NearestNeighbor)
+
 			var buf bytes.Buffer
 			err = imaging.Encode(&buf, dst, imaging.PNG)
 			if err != nil {
